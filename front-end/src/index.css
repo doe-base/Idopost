@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Mulish', sans-serif;
+  overflow-x: hidden !important;
+  /* overflow-y: hidden !important; */
+  /* color: #242427d2; */
+  /* color: greenyellow */
+  /* color: #757511; */
+}
+
+
+.align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dark-green{
+  color: green;
+}
+
+.pd-2{
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.btns{
+  padding: 0.4rem 1.6rem !important;
+  font-family: inherit;
+  border: none !important;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 1px solid #fff !important;
+  cursor: pointer;
+}
+.submit-btn-disabled{
+  background: #48cbf31c;
+  cursor: not-allowed;
+}
+.submitbtn{
+  background-color: #48cbf3;
+}
+.prettybtn{
+  background: #f3f348;
+}
+.prettybtn:hover{
+  background: #f3f34870;
+  border: 1px solid #000 !important;
+  transition: all 0.3s linear;
+}
+.submitbtn:hover{
+  background: #48cbf370;
+  border: 1px solid #000 !important;
+  transition: all 0.3s linear;
+}
+
+.mb-2{
+  margin-bottom: 2rem !important;
+}
+.pd-1{
+  padding: 0 1rem !important;
+}
